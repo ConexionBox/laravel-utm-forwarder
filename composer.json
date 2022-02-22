@@ -1,5 +1,5 @@
 {
-    "name": "conexionbox/laravel-analytics-tracker",
+    "name": "conexionbox/laravel-utm-forwarder",
     "description": "Keeps track of the original UTM parameters",
     "keywords": [
         "spatie",
