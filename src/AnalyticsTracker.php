@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\AnalyticsTracker;
+namespace ConexionBox\AnalyticsTracker;
 
-use Spatie\AnalyticsTracker\Helpers\Url;
+use ConexionBox\AnalyticsTracker\Helpers\Url;
 
 class AnalyticsTracker
 {

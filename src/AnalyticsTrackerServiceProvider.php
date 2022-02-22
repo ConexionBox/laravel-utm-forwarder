@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\AnalyticsTracker;
+namespace ConexionBox\AnalyticsTracker;
 
 use Illuminate\Contracts\Session\Session;
 use Illuminate\Support\ServiceProvider;

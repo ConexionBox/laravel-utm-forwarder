@@ -5,7 +5,7 @@
         "spatie",
         "laravel-utm-forwarder"
     ],
-    "homepage": "https://github.com/spatie/laravel-utm-forwarder",
+    "homepage": "https://github.com/conexionbox/laravel-utm-forwarder",
     "license": "MIT",
     "authors": [
         {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\AnalyticsTracker\\": "src"
+            "ConexionBox\\AnalyticsTracker\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\AnalyticsTracker\\Tests\\": "tests"
+            "ConexionBox\\AnalyticsTracker\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "AnalyticsTrackerServiceProvider"
+              "ConexionBox\\ConexionBox\\AnalyticsTrackerServiceProvider"
             ]
         }
     },

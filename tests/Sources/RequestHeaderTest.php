@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\AnalyticsTracker\Tests\Sources;
+namespace ConexionBox\AnalyticsTracker\Tests\Sources;
 
 use Illuminate\Http\Request;
-use Spatie\AnalyticsTracker\Sources\RequestHeader;
-use Spatie\AnalyticsTracker\Tests\TestCase;
+use ConexionBox\AnalyticsTracker\Sources\RequestHeader;
+use ConexionBox\AnalyticsTracker\Tests\TestCase;
 
 class RequestHeaderTest extends TestCase
 {

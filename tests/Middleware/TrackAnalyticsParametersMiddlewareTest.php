@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\AnalyticsTracker\Tests\Middleware;
+namespace ConexionBox\AnalyticsTracker\Tests\Middleware;
 
 use Illuminate\Http\Request;
-use Spatie\AnalyticsTracker\AnalyticsBag;
-use Spatie\AnalyticsTracker\Middleware\TrackAnalyticsParametersMiddleware;
-use Spatie\AnalyticsTracker\Tests\TestCase;
+use ConexionBox\AnalyticsTracker\AnalyticsBag;
+use ConexionBox\AnalyticsTracker\Middleware\TrackAnalyticsParametersMiddleware;
+use ConexionBox\AnalyticsTracker\Tests\TestCase;
 
 class TrackAnalyticsParametersMiddlewareTest extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\AnalyticsTracker\Sources;
+namespace ConexionBox\AnalyticsTracker\Sources;
 
-use Spatie\AnalyticsTracker\Helpers\Request;
+use ConexionBox\AnalyticsTracker\Helpers\Request;
 
 class CrossOriginRequestHeader extends RequestHeader
 {

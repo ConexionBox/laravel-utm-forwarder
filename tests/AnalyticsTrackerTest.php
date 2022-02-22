@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\AnalyticsTracker\Tests;
+namespace ConexionBox\AnalyticsTracker\Tests;
 
 use Illuminate\Support\Facades\Session;
-use Spatie\AnalyticsTracker\AnalyticsTracker;
+use ConexionBox\AnalyticsTracker\AnalyticsTracker;
 
 class AnalyticsTrackerTest extends TestCase
 {

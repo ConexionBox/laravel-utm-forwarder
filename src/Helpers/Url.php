@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\AnalyticsTracker\Helpers;
+namespace ConexionBox\AnalyticsTracker\Helpers;
 
 class Url
 {

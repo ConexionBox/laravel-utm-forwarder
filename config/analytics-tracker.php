@@ -6,32 +6,32 @@ return [
      * the application. The configuration consists of the parameter's key and the
      * source to extract this key from.
      *
-     * Available sources can be found in the `\Spatie\AnalyticsTracker\Sources` namespace.
+     * Available sources can be found in the `\ConexionBox\AnalyticsTracker\Sources` namespace.
      */
     'tracked_parameters' => [
         [
             'key' => 'utm_source',
-            'source' => Spatie\AnalyticsTracker\Sources\RequestParameter::class,
+            'source' => ConexionBox\AnalyticsTracker\Sources\RequestParameter::class,
         ],
         [
             'key' => 'utm_medium',
-            'source' => Spatie\AnalyticsTracker\Sources\RequestParameter::class,
+            'source' => ConexionBox\AnalyticsTracker\Sources\RequestParameter::class,
         ],
         [
             'key' => 'utm_campaign',
-            'source' => Spatie\AnalyticsTracker\Sources\RequestParameter::class,
+            'source' => ConexionBox\AnalyticsTracker\Sources\RequestParameter::class,
         ],
         [
             'key' => 'utm_term',
-            'source' => Spatie\AnalyticsTracker\Sources\RequestParameter::class,
+            'source' => ConexionBox\AnalyticsTracker\Sources\RequestParameter::class,
         ],
         [
             'key' => 'utm_content',
-            'source' => Spatie\AnalyticsTracker\Sources\RequestParameter::class,
+            'source' => ConexionBox\AnalyticsTracker\Sources\RequestParameter::class,
         ],
         [
             'key' => 'referer',
-            'source' => Spatie\AnalyticsTracker\Sources\CrossOriginRequestHeader::class,
+            'source' => ConexionBox\AnalyticsTracker\Sources\CrossOriginRequestHeader::class,
         ],
     ],
 

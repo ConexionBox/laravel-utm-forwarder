@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\AnalyticsTracker\Tests;
+namespace ConexionBox\AnalyticsTracker\Tests;
 
 use Illuminate\Http\Request;
-use Spatie\AnalyticsTracker\AnalyticsBag;
-use Spatie\AnalyticsTracker\Sources\RequestParameter;
+use ConexionBox\AnalyticsTracker\AnalyticsBag;
+use ConexionBox\AnalyticsTracker\Sources\RequestParameter;
 
 class TrackedAnalyticsParametersTest extends TestCase
 {

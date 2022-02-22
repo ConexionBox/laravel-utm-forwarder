@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\AnalyticsTracker\Sources;
+namespace ConexionBox\AnalyticsTracker\Sources;
 
 use Illuminate\Http\Request;
 
