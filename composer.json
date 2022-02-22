@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-analytics-tracker",
+    "name": "conexionbox/laravel-analytics-tracker",
     "description": "Keeps track of the original UTM parameters",
     "keywords": [
         "spatie",
