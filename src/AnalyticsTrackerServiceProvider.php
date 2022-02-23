@@ -24,7 +24,7 @@ class AnalyticsTrackerServiceProvider extends ServiceProvider
             return new AnalyticsBag(
                 $app->make(Session::class),
                 config('analytics-tracker.tracked_parameters'),
-                config('analytics-tracker.session_key'),
+                config('analytics-tracker.session_key')
             );
         });
     }

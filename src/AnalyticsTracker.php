@@ -6,7 +6,7 @@ use ConexionBox\AnalyticsTracker\Helpers\Url;
 
 class AnalyticsTracker
 {
-    protected AnalyticsBag $analyticsBag;
+    protected $analyticsBag;
 
     public function __construct(AnalyticsBag $analyticsBag)
     {
@@ -31,7 +31,9 @@ class AnalyticsTracker
         $mapping = config('analytics-tracker.parameter_url_mapping');
 
         return collect($parameters)
-            ->mapWithKeys(fn (string $value, string $parameter) => [$mapping[$parameter] ?? $parameter => $value])
+            ->mapWithKeys(function (string $value, string $parameter) use ($mapping) {
+                return [$mapping[$parameter] ?? $parameter => $value];
+            })
             ->toArray();
     }
 }

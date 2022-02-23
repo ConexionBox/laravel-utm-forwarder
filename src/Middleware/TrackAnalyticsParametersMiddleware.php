@@ -8,7 +8,7 @@ use ConexionBox\AnalyticsTracker\AnalyticsBag;
 
 class TrackAnalyticsParametersMiddleware
 {
-    protected AnalyticsBag $analyticsBag;
+    protected $analyticsBag;
 
     public function __construct(AnalyticsBag $analyticsBag)
     {

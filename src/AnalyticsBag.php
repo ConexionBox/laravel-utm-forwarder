@@ -7,12 +7,12 @@ use Illuminate\Http\Request;
 
 class AnalyticsBag
 {
-    protected Session $session;
+    protected $session;
 
     /** @var array[]|string[][] */
-    protected array $trackedParameters;
+    protected $trackedParameters;
 
-    protected string $sessionKey;
+    protected $sessionKey;
 
     public function __construct(Session $session, array $trackedParameters, string $sessionKey)
     {

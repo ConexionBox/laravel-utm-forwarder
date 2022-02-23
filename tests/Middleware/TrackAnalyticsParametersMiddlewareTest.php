@@ -18,6 +18,8 @@ class TrackAnalyticsParametersMiddlewareTest extends TestCase
 
         $middleware = app(TrackAnalyticsParametersMiddleware::class);
 
-        $middleware->handle($request, fn (Request $request) => $request);
+        $middleware->handle($request, function (Request $request) {
+            return $request;
+        });
     }
 }

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class RequestHeader
 {
-    protected Request $request;
+    protected $request;
 
     public function __construct(Request $request)
     {
